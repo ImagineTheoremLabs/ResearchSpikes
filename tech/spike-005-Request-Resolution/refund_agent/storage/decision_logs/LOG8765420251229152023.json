@@ -1,0 +1,110 @@
+{
+  "session_id": "87654",
+  "customer_id": "CUST001",
+  "decision_type": "refund_request",
+  "timestamp": "2025-12-29T15:20:23.128291Z",
+  "inputs": {
+    "refund_reason": "Customer did not like the product",
+    "order_id": "ORD001",
+    "otp_code": "933946",
+    "name": "Sanjyot Sathe",
+    "refund_type": "store_credit"
+  },
+  "policy_checks": [
+    {
+      "passed": false,
+      "details": {
+        "order_date": "2025-11-15T10:30:00Z",
+        "days_since_order": 44,
+        "window_days": 30
+      },
+      "check": "time_window"
+    },
+    {
+      "passed": true,
+      "details": {
+        "status": "delivered"
+      },
+      "check": "order_status"
+    },
+    {
+      "details": {
+        "item_checks": [
+          {
+            "refund_amount": 99.99,
+            "condition": "unopened",
+            "item_id": "ITEM001",
+            "eligible": true,
+            "issues": [],
+            "product_name": "Wireless Headphones"
+          },
+          {
+            "condition": "unopened",
+            "refund_amount": 50,
+            "product_name": "USB-C Cable",
+            "issues": [],
+            "item_id": "ITEM002",
+            "eligible": true
+          }
+        ]
+      },
+      "check": "item_eligibility",
+      "passed": true
+    }
+  ],
+  "tool_calls": [
+    {
+      "parameters": {
+        "order_id": "ORD001",
+        "name": "Sanjot Sathe"
+      },
+      "tool_name": "RRVA_verify_by_order_and_name"
+    },
+    {
+      "tool_name": "RRVA_verify_by_order_and_name",
+      "parameters": {
+        "name": "Sanjyot Sathe",
+        "order_id": "ORD001"
+      }
+    },
+    {
+      "parameters": {
+        "customer_id": "CUST001",
+        "method": "email"
+      },
+      "tool_name": "RRVA_send_otp"
+    },
+    {
+      "parameters": {
+        "otp_code": "933946",
+        "customer_id": "CUST001"
+      },
+      "tool_name": "RRVA_verify_otp"
+    },
+    {
+      "tool_name": "RRVA_check_refund_eligibility",
+      "parameters": {
+        "order_id": "ORD001",
+        "customer_id": "CUST001",
+        "reason": "Customer did not like the product"
+      }
+    },
+    {
+      "tool_name": "RRVA_execute_refund",
+      "parameters": {
+        "refund_amount": 149.99,
+        "refund_method": "store_credit",
+        "customer_id": "CUST001",
+        "reason": "Customer did not like the product, offered store credit instead of refund due to policy",
+        "order_id": "ORD001"
+      }
+    }
+  ],
+  "outcome": {
+    "refund_id": "REF30E349AB",
+    "refund_method": "store_credit",
+    "status": "completed",
+    "refund_amount": 149.99
+  },
+  "log_id": "LOG8765420251229152023"
+}

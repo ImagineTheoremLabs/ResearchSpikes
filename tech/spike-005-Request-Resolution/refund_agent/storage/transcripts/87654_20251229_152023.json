@@ -1,0 +1,110 @@
+{
+  "conversation": [
+    {
+      "text": "Hello.",
+      "speaker": "user"
+    },
+    {
+      "text": "Hi...",
+      "speaker": "agent"
+    },
+    {
+      "text": "Are you guys good with that?",
+      "speaker": "user"
+    },
+    {
+      "text": "...",
+      "speaker": "agent"
+    },
+    {
+      "speaker": "user",
+      "text": "All right."
+    },
+    {
+      "text": "I'm sorry, I didn't quite catch that. Could you please rephrase your question or tell me what you'd like assistance with today?",
+      "speaker": "agent"
+    },
+    {
+      "text": "I would like to refund my order today",
+      "speaker": "user"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can certainly help you with that. To get started, could you please provide me with your order ID and the name associated with the order?"
+    },
+    {
+      "speaker": "user",
+      "text": "So the order ID is ORD001 and my name is Sanjot Sathe."
+    },
+    {
+      "speaker": "agent",
+      "text": "It looks like the name you provided doesn't quite match the one on file for order ID ORD zero zero one. Could you double-check the spelling or provide the exact name used when the order was placed?"
+    },
+    {
+      "speaker": "user",
+      "text": "..."
+    },
+    {
+      "text": "Are you still there?",
+      "speaker": "agent"
+    },
+    {
+      "speaker": "user",
+      "text": "Yes. So the name associated with this order is Sanjot Sathe, S-A-N-J-Y-O-T"
+    },
+    {
+      "text": "Ah, thank you for clarifying the spelling. Let me try that again for you. Great, Sanjyot Sathe is verified for order ID ORD zero zero one. Now, to proceed with your refund request, I'll need to send a one-time password to your registered email address, which is sanjyot.sathe@gmail.com. Does that sound right?",
+      "speaker": "agent"
+    },
+    {
+      "text": "Yes.",
+      "speaker": "user"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, I've sent an OTP to sanjyot.sathe@gmail.com. Please check your inbox and let me know the code when you receive it. It should be valid for the next ten minutes."
+    },
+    {
+      "speaker": "user",
+      "text": "So the OTP that I have is 933946."
+    },
+    {
+      "text": "Thank you. The OTP has been successfully verified. Now that your identity is confirmed, what was the reason for your refund request today?",
+      "speaker": "agent"
+    },
+    {
+      "speaker": "user",
+      "text": "I just don't like the product."
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all, sometimes a product just isn't the right fit. Before I process the refund, could you confirm if you'd like to refund the entire order, or just specific items from it?"
+    },
+    {
+      "speaker": "user",
+      "text": "The entire order please."
+    },
+    {
+      "speaker": "agent",
+      "text": "I've checked the eligibility for your refund, and it seems that while the items themselves are in good condition, your order was placed forty-four days ago, which unfortunately falls outside of our thirty-day refund window.\n\nHowever, we might be able to offer an exchange or store credit as an alternative. Would you be interested in exploring those options?"
+    },
+    {
+      "speaker": "user",
+      "text": "I would like store credit instead."
+    },
+    {
+      "text": "Perfect! I've processed a store credit for the full amount of one hundred forty-nine dollars and ninety-nine cents for your order. You should receive a confirmation and details about your store credit shortly. Is there anything else I can help you with today?",
+      "speaker": "agent"
+    },
+    {
+      "speaker": "user",
+      "text": "That's all for now."
+    }
+  ],
+  "session_id": "87654",
+  "metadata": {
+    "call_reason": "refund_request",
+    "call_duration_seconds": 120
+  },
+  "stored_at": "2025-12-29T15:20:23.119584Z"
+}

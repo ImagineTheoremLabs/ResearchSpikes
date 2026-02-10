@@ -1,0 +1,60 @@
+{
+  "session_id": "12345",
+  "customer_id": "CUST001",
+  "decision_type": "refund_inquiry",
+  "timestamp": "2025-12-29T13:40:57.934056Z",
+  "inputs": {
+    "order_id": "ORD-001",
+    "name": "Sanjyot Sathe",
+    "otp_code": "918262"
+  },
+  "policy_checks": [
+    {
+      "details": {
+        "window_days": 30,
+        "order_date": "2025-11-15T10:30:00Z",
+        "days_since_order": 44
+      },
+      "check": "time_window",
+      "passed": false
+    },
+    {
+      "check": "order_status",
+      "passed": true,
+      "details": {
+        "status": "delivered"
+      }
+    },
+    {
+      "check": "item_eligibility",
+      "passed": true,
+      "details": {
+        "item_checks": [
+          {
+            "eligible": true,
+            "condition": "unopened",
+            "item_id": "ITEM001",
+            "product_name": "Wireless Headphones",
+            "refund_amount": 99.99,
+            "issues": []
+          },
+          {
+            "product_name": "USB-C Cable",
+            "condition": "unopened",
+            "issues": [],
+            "eligible": true,
+            "item_id": "ITEM002",
+            "refund_amount": 50
+          }
+        ]
+      }
+    }
+  ],
+  "tool_calls": [],
+  "outcome": {
+    "eligible": false,
+    "reason": "Order is 44 days old, exceeds 30-day window",
+    "suggested_action": "store_credit"
+  },
+  "log_id": "LOG1234520251229134057"
+}

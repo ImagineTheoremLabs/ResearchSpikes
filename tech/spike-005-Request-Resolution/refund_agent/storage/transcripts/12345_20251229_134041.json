@@ -1,0 +1,31 @@
+{
+  "conversation": [
+    {
+      "speaker": "user",
+      "text": "return my order ORD-001, name Sanjyot Sathe"
+    },
+    {
+      "speaker": "agent",
+      "text": "Alright, Sanjyot, I've verified your name with order ORD-001. Now, to process your return, I'll need to send a one-time password to your registered email, sanjyot.sathe@gmail.com. Does that sound good?"
+    },
+    {
+      "speaker": "user",
+      "text": "yes"
+    },
+    {
+      "text": "Great! I've just sent an OTP to your email. Could you please retrieve it and tell me the code?",
+      "speaker": "agent"
+    },
+    {
+      "speaker": "user",
+      "text": "918262"
+    },
+    {
+      "text": "Thanks for that! I've verified the OTP.\n\nHowever, it looks like your order, ORD-001, was placed 44 days ago, which unfortunately falls outside of our 30-day return window. While a full refund isn't possible, we might be able to offer an exchange or store credit. Would you be interested in exploring those options?",
+      "speaker": "agent"
+    }
+  ],
+  "session_id": "12345",
+  "metadata": {},
+  "stored_at": "2025-12-29T13:40:41.772771Z"
+}
