@@ -1,0 +1,26 @@
+[
+  {
+    "order_id": "ORD101",
+    "customer_id": "CUST001",
+    "order_date": "2026-01-15",
+    "amount": 499.00,
+    "delivered": true,
+    "promotional": false
+  },
+  {
+    "order_id": "ORD102",
+    "customer_id": "CUST002",
+    "order_date": "2025-11-20",
+    "amount": 899.00,
+    "delivered": true,
+    "promotional": false
+  },
+  {
+    "order_id": "ORD103",
+    "customer_id": "CUST001",
+    "order_date": "2026-01-20",
+    "amount": 600.00,
+    "delivered": true,
+    "promotional": false
+  }
+]

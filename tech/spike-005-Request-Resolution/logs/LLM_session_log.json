@@ -1,0 +1,231 @@
+[
+    {
+        "timestamp": "2026-02-11 21:16:36",
+        "user_input": "Hi, I want a refund for ORD101. My email is rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-82D6BF43",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:16:36"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:17:01",
+        "user_input": " Hi, I want a refund for ORD103",
+        "order_id": "ORD103",
+        "email": null,
+        "status": "ERROR",
+        "message": "Missing order ID or email"
+    },
+    {
+        "timestamp": "2026-02-11 21:17:39",
+        "user_input": "my email is rahul@example.com",
+        "order_id": null,
+        "email": "rahul@example.com",
+        "status": "ERROR",
+        "message": "Missing order ID or email"
+    },
+    {
+        "timestamp": "2026-02-11 21:19:33",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-9872117A",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:19:33"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:19:54",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-1607EA67",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:19:54"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:20:19",
+        "user_input": "ORD101 ananya@example.com",
+        "order_id": "ORD101",
+        "email": "ananya@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-6458F994",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:20:19"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:22:30",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-5126F4E9",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:22:30"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:22:38",
+        "user_input": "ORD101 ananya@example.com",
+        "order_id": "ORD101",
+        "email": "ananya@example.com",
+        "status": "IDENTITY_FAILED",
+        "message": "Order does not belong to this email"
+    },
+    {
+        "timestamp": "2026-02-11 21:22:48",
+        "user_input": "ORD101 ananya@example.com",
+        "order_id": "ORD101",
+        "email": "ananya@example.com",
+        "status": "IDENTITY_FAILED",
+        "message": "Order does not belong to this email"
+    },
+    {
+        "timestamp": "2026-02-11 21:23:06",
+        "user_input": "ORD101 ananya@example.com",
+        "order_id": "ORD101",
+        "email": "ananya@example.com",
+        "status": "IDENTITY_FAILED",
+        "message": "Order does not belong to this email"
+    },
+    {
+        "timestamp": "2026-02-11 21:23:08",
+        "user_input": "ORD101 ananya@example.com",
+        "order_id": "ORD101",
+        "email": "ananya@example.com",
+        "status": "IDENTITY_FAILED",
+        "message": "Order does not belong to this email"
+    },
+    {
+        "timestamp": "2026-02-11 21:23:40",
+        "user_input": "ORD101 ananya@example.com",
+        "order_id": "ORD101",
+        "email": "ananya@example.com",
+        "status": "IDENTITY_FAILED",
+        "message": "Order does not belong to this email"
+    },
+    {
+        "timestamp": "2026-02-11 21:24:14",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-CCDFC4F6",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:24:14"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:24:17",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-E1B3B987",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:24:17"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:24:19",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-DD2449FB",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:24:19"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:24:23",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-47306797",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:24:23"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:24:41",
+        "user_input": "ORD101 rahul@example.com",
+        "order_id": "ORD101",
+        "email": "rahul@example.com",
+        "policy_status": "FULL",
+        "policy_message": "Eligible for full refund",
+        "refund": {
+            "refund_id": "RF-640A5049",
+            "order_id": "ORD101",
+            "amount": 499.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:24:41"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:24:57",
+        "user_input": "ORD103 rahul@example.com",
+        "order_id": "ORD103",
+        "email": "rahul@example.com",
+        "policy_status": "PARTIAL",
+        "policy_message": "Eligible for 50% refund due to restocking policy",
+        "refund": {
+            "refund_id": "RF-22DC0A8A",
+            "order_id": "ORD103",
+            "amount": 300.0,
+            "method": "Original Payment Method",
+            "processed_at": "2026-02-11 21:24:57"
+        }
+    },
+    {
+        "timestamp": "2026-02-11 21:25:12",
+        "user_input": "ORD102 rahul@example.com",
+        "order_id": "ORD102",
+        "email": "rahul@example.com",
+        "status": "IDENTITY_FAILED",
+        "message": "Order does not belong to this email"
+    }
+]
