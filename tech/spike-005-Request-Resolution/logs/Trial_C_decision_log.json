@@ -1,0 +1,13 @@
+{
+    "order_id": "ORD103",
+    "identity_verified": true,
+    "policy_status": "PARTIAL",
+    "policy_message": "Eligible for 50% refund due to restocking policy",
+    "refund": {
+        "refund_id": "RF-7D8A81C5",
+        "order_id": "ORD103",
+        "amount": 300.0,
+        "method": "Original Payment Method",
+        "processed_at": "2026-02-11 18:37:38"
+    }
+}

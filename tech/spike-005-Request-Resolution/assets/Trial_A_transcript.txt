@@ -1,0 +1,8 @@
+
+Agent: Please provide your order ID.
+Customer: ORD101
+Agent: Please confirm your email.
+Customer: rahul@example.com
+Agent: Eligible for full refund
+
+Agent: Your full refund of ₹499.0 has been processed.

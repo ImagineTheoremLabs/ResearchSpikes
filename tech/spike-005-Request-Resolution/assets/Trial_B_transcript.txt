@@ -1,0 +1,8 @@
+
+Agent: Please provide your order ID.
+Customer: ORD102
+Agent: Please confirm your email.
+Customer: ananya@example.com
+Agent: Order exceeds 30-day refund window
+
+Agent: Unfortunately, your refund request has been denied.

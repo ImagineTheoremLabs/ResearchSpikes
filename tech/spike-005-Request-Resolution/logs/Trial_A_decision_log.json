@@ -1,0 +1,13 @@
+{
+    "order_id": "ORD101",
+    "identity_verified": true,
+    "policy_status": "FULL",
+    "policy_message": "Eligible for full refund",
+    "refund": {
+        "refund_id": "RF-4CAF7B57",
+        "order_id": "ORD101",
+        "amount": 499.0,
+        "method": "Original Payment Method",
+        "processed_at": "2026-02-11 18:37:38"
+    }
+}

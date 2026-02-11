@@ -1,0 +1,8 @@
+
+Agent: Please provide your order ID.
+Customer: ORD103
+Agent: Please confirm your email.
+Customer: rahul@example.com
+Agent: Eligible for 50% refund due to restocking policy
+
+Agent: You are eligible for a 50% refund of ₹300.0.

@@ -1,0 +1,14 @@
+[
+  {
+    "customer_id": "CUST001",
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "phone": "9876543210"
+  },
+  {
+    "customer_id": "CUST002",
+    "name": "Ananya Mehta",
+    "email": "ananya@example.com",
+    "phone": "9123456780"
+  }
+]

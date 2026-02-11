@@ -1,0 +1,6 @@
+{
+    "order_id": "ORD102",
+    "identity_verified": true,
+    "policy_status": "DENIED",
+    "policy_message": "Order exceeds 30-day refund window"
+}
